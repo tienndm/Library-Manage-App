@@ -1,0 +1,1 @@
+ALTER TABLE "books" ADD COLUMN "total_copies" integer DEFAULT 1 NOT NULL;

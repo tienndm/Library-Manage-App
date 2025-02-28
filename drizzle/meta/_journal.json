@@ -15,6 +15,20 @@
       "when": 1740729587062,
       "tag": "0001_dusty_rictor",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1740731259942,
+      "tag": "0002_flowery_domino",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1740731431052,
+      "tag": "0003_broken_boomerang",
+      "breakpoints": true
     }
   ]
 }
