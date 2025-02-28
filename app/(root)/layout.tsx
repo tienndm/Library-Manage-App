@@ -2,6 +2,7 @@ import { auth } from '@/auth';
 import Header from '@/components/Header'
 import { redirect } from 'next/navigation';
 import React, { ReactNode } from 'react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const Layout = async ({ children }: { children: ReactNode }) => {
   const session = await auth()
@@ -13,6 +14,7 @@ const Layout = async ({ children }: { children: ReactNode }) => {
       />
       <div className='mt-20 pb-20'>
         {children}
+        <SpeedInsights />
       </div>
 
     </div>
